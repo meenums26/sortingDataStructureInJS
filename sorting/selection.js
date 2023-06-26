@@ -1,8 +1,9 @@
 const arr = [3, 4, 2, 56, 3, 7, 3, 8];
 
 // SELECTION SORT
+// It works by selecting the smallest (or largest) element from the unsorted part of the list and placing it at the beginning (or end) of the sorted part. It continues this process for the remaining elements.
 // TIME COMPLEXITY ANALYSIS = O(N)^2
-// SPACE COMPLEXITY ANALYSIS = 0(1) => sorting is done in-place without using any extra data structures.
+// SPACE COMPLEXITY ANALYSIS = O(1) => sorting is done in-place without using any extra data structures.
 const selectionSort = (arr) => {
   let arrLen = arr.length; // O(1) - Constant time
 
@@ -27,3 +28,5 @@ const selectionSort = (arr) => {
 
 selectionSort(arr); // O(n^2) - Quadratic time
 console.log(arr); // O(1) - Constant time
+
+
